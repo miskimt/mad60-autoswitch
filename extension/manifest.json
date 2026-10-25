@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "MAD60 Auto Profile",
+  "version": "1.0.0",
+  "description": "Selects the keyboard profile requested by the local kb_autoswitch helper inside the MadLions web driver.",
+  "host_permissions": [
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://hub.fgg.com.cn/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

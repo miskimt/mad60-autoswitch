@@ -1,0 +1,15 @@
+{
+  "port": 47831,
+  "poll_seconds": 2,
+  "exit_grace_seconds": 15,
+  "default_profile": "normal_AI",
+  "apply_button_text": "",
+  "games": [
+    { "name": "Valorant",          "profile": "valorant_enhanced",   "processes": ["VALORANT-Win64-Shipping.exe"] },
+    { "name": "League of Legends", "profile": "lol",     "processes": ["League of Legends.exe"] },
+    { "name": "League of Legends", "profile": "lol",     "processes": ["LeagueClient.exe"] },
+    { "name": "League of Legends", "profile": "lol",     "processes": ["LeagueClientUx.exe"] },
+    { "name": "League of Legends", "profile": "lol",     "processes": ["LeagueClientUxRender.exe"] },
+    { "name": "Valheim",           "profile": "valheim", "processes": ["valheim.exe"] }
+  ]
+}
